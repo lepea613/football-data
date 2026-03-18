@@ -5,7 +5,7 @@ import matplotlib.pyplot as plt
 # Verbindung zur Datenbank
 conn = sqlite3.connect("football.db")
 
-# SQL Query (Top Teams nach Toren)
+# SQL Query 
 query = '''
 SELECT 
     "homeTeam.name" as team,
